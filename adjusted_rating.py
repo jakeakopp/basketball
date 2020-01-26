@@ -1,4 +1,12 @@
 import os
+
+#virtualenv -p python3 env
+#source env/bin/activate
+#pip3 install -r ../basketball_reference_web_scraper/requirements.txt
+
+import sys
+sys.path.append("/usr/local/google/home/tjredekopp/projects/basketball_reference_web_scraper")
+
 import basketball_reference_web_scraper as scraper
 from basketball_reference_web_scraper import client
 
